@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        mg = findViewById(R.id.img);
         btjugar = findViewById(R.id.bt1);
         btjugar.setOnClickListener(this);
     }
